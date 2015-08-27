@@ -1,2 +1,2 @@
-<Organisation Title>
-Reference Computation Environment
+UOM Systems Biology
+Reference Environment
