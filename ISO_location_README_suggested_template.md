@@ -22,4 +22,4 @@ This will start a virtual machine with scripts to run which reproduce results de
 
 [Docker container](https://hub.docker.com/r/uomsystemsbiology/feizi2013network/)
 
-[Vagrant-managed virtual machine](https://github.com/uomsystemsbiology/feizi2013network)
+[Vagrant-managed virtual machine](https://github.com/uomsystemsbiology/feizi2013network_reference_environment)

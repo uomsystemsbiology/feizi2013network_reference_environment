@@ -22,7 +22,7 @@ output to (location).
 
 [Docker container](https://hub.docker.com/r/uomsystemsbiology/feizi2013network/)
 
-[Vagrant-managed virtual machine](https://github.com/uomsystemsbiology/feizi2013network)
+[Vagrant-managed virtual machine](https://github.com/uomsystemsbiology/feizi2013network_reference_environment)
 
 [Bootable ISO](https://dx.doi.org/10.5281/zenodo.29668)"
 echo

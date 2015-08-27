@@ -22,6 +22,6 @@ This will execute a script to reproduce the results described in the manuscript.
 
 [Docker container](https://hub.docker.com/r/uomsystemsbiology/feizi2013network/)
 
-[Vagrant-managed virtual machine](https://github.com/uomsystemsbiology/feizi2013network)
+[Vagrant-managed virtual machine](https://github.com/uomsystemsbiology/feizi2013network_reference_environment)
 
 [Bootable ISO](https://dx.doi.org/10.5281/zenodo.29668)
