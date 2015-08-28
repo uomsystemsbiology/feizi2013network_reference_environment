@@ -8,7 +8,7 @@ To find other versions of this reference environment, see Other Links below.  To
 This version of the reference environment is a live image as a bootable read-only ISO.  To use it:
 
 - Install a virtualization tool like [VirtualBox](https://www.virtualbox.org/), then 
-- Create a new virtual machine in the virtualization tool with a virtual CD/DVD-ROM drive
+- Create a new 64-bit virtual machine in the virtualization tool with a virtual CD/DVD-ROM drive
 - Mount the ISO in the drive
 - Boot the machine.  
 
