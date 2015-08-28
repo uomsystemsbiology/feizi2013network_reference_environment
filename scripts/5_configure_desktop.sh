@@ -20,9 +20,17 @@ sudo sed -i "s#\(wallpaper *= *\).*#\1$WALLPAPERPATH#" /home/sbl/.config/pcmanfm
 sudo sed -i "s#\(wallpaper_mode *= *\).*#\1fit#" /home/sbl/.config/pcmanfm/lubuntu/desktop-items-0.conf
 sudo sed -i "s#\(desktop_bg *= *\).*#\1\#00447b#" /home/sbl/.config/pcmanfm/lubuntu/desktop-items-0.conf
 
+echo Altering font size | tee -a $log
+sudo sed -i "s#\(desktop_font *= *\).*#\1Ubuntu Light 8#" /home/sbl/.config/pcmanfm/lubuntu/desktop-items-0.conf
+
 echo Creating link from shell script on desktop| tee -a $log
-ln -sv /home/sbl/run_experiments.sh /home/sbl/Desktop/run_experiments.sh
-printf "[run_experiments.sh]\nx=10\ny=500\n" >> /home/sbl/.config/pcmanfm/lubuntu/desktop-items-0.conf
+ln -sv /home/sbl/run_experiments_ND_performance_regulatory.sh /home/sbl/Desktop/run_experiments_ND_performance_regulatory.sh 
+ln -sv /home/sbl/run_experiments_ND_performance_protein.sh /home/sbl/Desktop/run_experiments_ND_performance_protein.sh 
+ln -sv /home/sbl/run_experiments_ND_performance_coauthorship.sh /home/sbl/Desktop/run_experiments_ND_performance_coauthorship.sh 
+
+printf "[run_experiments_ND_performance_regulatory.sh]\nx=10\ny=500\n" >> /home/sbl/.config/pcmanfm/lubuntu/desktop-items-0.conf
+printf "[run_experiments_ND_performance_protein.sh]\nx=110\ny=500\n" >> /home/sbl/.config/pcmanfm/lubuntu/desktop-items-0.conf
+printf "[run_experiments_ND_performance_coauthorship.sh]\nx=220\ny=500\n" >> /home/sbl/.config/pcmanfm/lubuntu/desktop-items-0.conf
 
 echo Removing Trash icon from the desktop
 sudo sed -i "s#\(show_trash *= *\).*#\10#" /home/sbl/.config/pcmanfm/lubuntu/desktop-items-0.conf
