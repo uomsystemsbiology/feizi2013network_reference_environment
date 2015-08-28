@@ -9,12 +9,13 @@ To find other versions of this reference environment, see Other Links below.  To
 This version of the reference environment is a Docker container.  To use it, install [Docker](https://www.docker.com/), then do:
 
 ```
-$ docker pull organization_name/project_name
-$ docker run organization_name/project_name /sbin/my_init -- ./run_experiments.sh
+$ docker pull uomsystemsbiology/feizi2013network
+$ docker run uomsystemsbiology/feizi2013network /sbin/my_init -- ./run_plot_ND_performance_regulatory.sh
+$ docker run uomsystemsbiology/feizi2013network /sbin/my_init -- ./run_plot_ND_performance_protein.sh
+$ docker run uomsystemsbiology/feizi2013network /sbin/my_init -- ./run_plot_ND_performance_coauthorship.sh
 ```
 
-
-This will start the container and execute the script which reproduce the results described in the manuscript.  
+This will start the container and execute the script which reproduce the results described in the manuscript.  Note that the scripts in this environment generate MATLAB plots which will not be displayed when accessing the environment as a Docker container; to see the plots, use the virtual machine or ISO versions of the environment described below. 
 
 ### Other links
 

@@ -10,9 +10,11 @@ To use this version of the reference environment from a shell, do:
 
 ```
 $ cd /
-$ ./run_experiments.sh
+$ ./run_experiments_ND_performance_regulatory.sh
+$ ./run_experiments_ND_performance_protein.sh
+$ ./run_experiments_ND_performance_coauthorship.sh
 ```
-This will execute a script to reproduce the results described in the manuscript. 
+This will execute MATLAB scripts to reproduce the results described in the manuscript.   Note that the scripts in this environment generate MATLAB plots which will not be displayed when sshing into the environment; to see the plots, use the virtual machine or ISO versions of the environment described below. 
 
 ### Other links
 

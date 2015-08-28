@@ -1,2 +1,2 @@
-UOM Systems Biology
+Systems Biology Lab
 Reference Environment
