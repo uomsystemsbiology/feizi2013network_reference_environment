@@ -1,2 +1,5 @@
 The default user is 'sbl' password 'sbl'
-Double-click the scripts below and select 'Execute in Terminal' to run them.
+This is the reference environment for reproducing the results of the manuscript:
+	Feizi, S., Marbach, D., Médard, M. & Kellis, M. Network deconvolution as a general method to distinguish direct dependencies in networks. Nat. Biotechnol. 31, 726–33 (2013).
+Double-click the scripts below and select 'Execute in Terminal' to run them.  Detailed instructions
+are provided by the authors in /home/sbl/feizi_et_al/code

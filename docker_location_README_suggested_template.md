@@ -15,7 +15,11 @@ $ docker run uomsystemsbiology/feizi2013network /sbin/my_init -- ./run_plot_ND_p
 $ docker run uomsystemsbiology/feizi2013network /sbin/my_init -- ./run_plot_ND_performance_coauthorship.sh
 ```
 
-This will start the container and execute the script which reproduce the results described in the manuscript.  Note that the scripts in this environment generate MATLAB plots which will not be displayed when accessing the environment as a Docker container; to see the plots, use the virtual machine or ISO versions of the environment described below. 
+This will execute MATLAB scripts to reproduce the results described in the manuscript, and the output will be written to /home/sbl/feizi_et_al/code.
+
+Note that the scripts in this environment generate MATLAB plots which will not be displayed when accessing the environment as a Docker container, and the scripts above will not terminate after they have completed.  To terminate the scripts, press Ctrl-C.  Details on the scripts are provided by the authors in /home/sbl/feizi_et_al/code. 
+
+To see the generated MATLAB plots, use the virtual machine or ISO versions of the environment described below. 
 
 ### Other links
 
